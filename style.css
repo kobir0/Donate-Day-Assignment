@@ -108,10 +108,12 @@ a {
 
 }
 
-input {
+.inputdoller {
+
 
     border: none;
     border-bottom: 2px solid rgb(0, 0, 0);
+    width: 400px;
 
 }
 
@@ -119,9 +121,7 @@ input {
     padding-left: 33%;
 }
 
-input {
-    width: 400px;
-}
+input {}
 
 
 .InputText p {
@@ -152,4 +152,19 @@ input {
 
 #color {
     background-color: #ffd800;
+}
+
+.Email {
+    width: 700px;
+    height: 145px;
+
+    padding: 15px;
+    margin-left: 21%;
+    background-color: lightgrey;
+}
+
+#Email {
+    text-align: center;
+    padding-top: 10%;
+    padding-right: 8%;
 }
